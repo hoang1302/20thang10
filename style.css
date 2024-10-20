@@ -16,3 +16,18 @@ body {
 .hienThi {
   opacity: 1; 
 }
+
+#thiepChucMung {
+  display: none; 
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffe5ec;
+  border: 2px solid #ffb6c1;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  font-family: cursive;
+  z-index: 100; 
+}
