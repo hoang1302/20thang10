@@ -1,0 +1,18 @@
+body {
+  background-color: #f0f0f0;
+}
+
+.thongBao {
+  position: fixed;
+  background-color: #ffcccc;
+  border: 1px solid #ff9999;
+  padding: 10px 20px;
+  font-family: sans-serif;
+  border-radius: 5px;
+  opacity: 0; 
+  transition: opacity 0.5s ease-in-out; 
+}
+
+.hienThi {
+  opacity: 1; 
+}
